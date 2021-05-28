@@ -21,7 +21,7 @@ module.exports = {
         printWidth: 80,
         bracketSpacing: true,
         arrowParens: 'avoid',
-        endofLine: 'auto',
+        endOfLine: 'auto',
       },
     ],
   },
