@@ -1,23 +1,19 @@
 <template>
-  <div id="app"></div>
+  <div id="app">
+    <Header />
+    <CoronaDashboard />
+  </div>
 </template>
 
 <script lang="ts">
 import Vue from 'vue';
+import Header from '@/components/Header.vue';
+import CoronaDashboard from '@/components/CoronaDashboard.vue';
 
 export default Vue.extend({
   name: 'App',
-  components: {},
+  components: { Header, CoronaDashboard },
 });
 </script>
 
-<style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
+<style lang="scss" scoped></style>
